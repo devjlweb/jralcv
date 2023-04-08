@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&family=Tulpen+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Thasadith:wght@700&family=Tulpen+One&family=Ubuntu+Mono&display=swap');
 
 * {
   margin: 0;
@@ -11,18 +11,22 @@ h1 {
   font-family: Thasadith;
   font-size: 96px;
   font-weight: 700;
-  color: #222;
+  line-height: 124.8px;
+  color: #BCB8B1;
 }
 
 h2 {
-  font-size: 46px;
-  line-height: 54px;
-  color: #222;
+  font-family: Tulpen One;
+  font-weight: 400;
+  font-size: 96px;
+  color: #8A817C;
 }
 
 h4 {
-  font-size: 20px;
-  color: #222;
+  font-family: "Ubuntu Mono";
+  font-weight: 400;
+  font-size: 24px;
+  color: #E0AFA0;
 }
 
 h6 {
@@ -31,9 +35,11 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  color: #465b52;
-  margin: 15px 0 20px 0;
+  font-family: "Chakra Petch";
+  font-size: 25px;
+  font-weight: 400;
+  color: #E0AFA0;
+  line-height: 40px;
 }
 
 .section-p1 {
@@ -61,6 +67,7 @@ body {
 }
 
 .logo {
+  /* height: 100vh; */
   font-size: 3em;
   font-family: "Tulpen One";
   text-decoration: none;
@@ -71,7 +78,7 @@ body {
 
 #navcontain {
   width: 25%;
-  height: 300px;
+  height: 280px;
   border: 1px solid white;
   background-color: #BCB8B1;
   align-items: center;
@@ -107,14 +114,71 @@ body {
   background-color: #8A817C;
   position: absolute;
   bottom: -4px;
-  left: 32px;
+  left: 35px;
 }
 
 #navbar li span {
   color: #E0AFA0;
 }
 
-/* Home Page */
 
+
+/* Home Page */
+#hero {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+}
+
+/* Hero Divider */
+#herodivider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* ASIDE */
+#aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 500px 45px 50px;
+  position: fixed;
+
+}
+
+#aside img {
+  padding-bottom: 20px;
+  width: 50px;
+}
+
+/* Details */
+
+#details {
+  padding-left: 140px;
+}
+
+#hero img {
+  width: 50px;
+}
+
+#hero h2 {
+  padding-bottom: 15px;
+}
+
+#hero p {
+  padding-bottom: 15px;
+}
+
+#hero #resume {
+  text-decoration: none;
+  color: #E0AFA0;
+  font-family: "Chakra Petch";
+  font-size: 25px;
+  font-weight: 400;
+}
 
 /* Shop Page */
