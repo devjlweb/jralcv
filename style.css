@@ -199,7 +199,7 @@ body {
 }
 
 #aboutleft {
-  width: 55%;
+  width: 55vw;
   background-color: #463F3A;
 }
 
@@ -221,7 +221,7 @@ body {
 }
 
 #aboutright {
-  width: 45%;
+  width: 45vw;
   background-color: #BCB8B1;
 }
 
@@ -250,7 +250,7 @@ body {
 
 .likes {
   width: 50px;
-  margin-left: 555px;
+  margin-left: 550px;
   margin-top: -700px;
 }
 
